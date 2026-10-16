@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* este es el body*/
+body {
+
+    font-family: "Nothing You Could Do", cursive;
+    line-height: 1.6;
+}
+
+
+/*estilo para las listas*/
+ul {
+    list-style: none;
+    color: rgb(173, 173, 36);
+}
+
+
+/*este de aqui es un estilo para enlaces*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* estilos del distribucion del menu y navegacion*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* contenido principal*/
+main {
+    color: rgba(21, 122, 122, 0.933);
+    background-color: rgba(60, 60, 60, 0.915);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*estilos tarjetas*/
+.contenedor-tarjetas {
+    display: flex;
+}
+
+
+.tarjeta {
+    background-color: rgba(130, 56, 56, 0.645);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.tarjeta h2 {
+    font-size: 1.5rem;
+}
+
+.tarjeta p {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+
+/* contenido del pie de pagina*/
+
+
+footer ul {
+    margin-top: 2rem;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+footer p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+header,
+footer {
+    color: rgb(247, 170, 183);
+    background-color: rgba(255, 0, 0, 0.885);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul,
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+footer {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+header a {
+    font-size: 1.8rem;
+}
+
+
+
+
+h1,
+h2 {
+    color: rgb(157, 78, 49);
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 4rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    border: solid 2px black;
+
+}
+
+
+
+
+
+
+
+
+.tarjeta,
+.articulo {
+    padding: 20px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.encabezado,
+.terminacion {
+    color: rgb(210, 133, 146);
+    background-color: rgba(255, 0, 0, 0.885);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado .narvar ul,
+.terminacion ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.principal {
+    color: rgba(21, 122, 122, 0.933);
+    background-color: rgba(199, 185, 185, 0.915);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+
+.encabezado a {
+    font-size: 1.8rem;
+}
+
+.articulo {
+    background-color: rgba(130, 56, 56, 0.645);
+}
+
+.articulo h2 {
+    font-size: 1.5rem;
+}
+
+.articulo p {
+    font-size: 1.2rem;
+}
+
+.terminacion p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+
+.terminacion {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.terminacion ul {
+    margin-top: 2rem;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.narvar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
